@@ -1,0 +1,59 @@
+body{
+background-color: aqua;
+}
+
+*.container-fluid input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .container-fluid button[type="submit"] {
+    background-color: #2a4aff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  /* caixa de pesquisa */
+.container-fluid m-3 {
+    position: absolute;
+    top: 17%;
+    left: 5px;
+    height: 367px;
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid #2a4aff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+  }
+  /* Estilos para o título e subtítulo */
+  .search-box h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 0px;
+  }
+  /* subtítulo */
+  .search-box p {
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 6px;
+  }
+  /* Estilos para os campos de entrada */
+  .search-box input[type="text"],
+  .search-box input[type="number"] {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #2a4aff;
+    border-radius: 5px;
+  }
+
+
